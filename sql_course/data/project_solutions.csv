@@ -1,6 +1,6 @@
 key;value
 q_0_1;select * from courses limit 10
-q_1_1;select count(*) as cnt from courses
+q_1_1;select count(*) as cnt from courses 
 q_1_2;select distinct course_category from courses
 q_2_1;select count(*) as cnt from courses where course_category = 'Machine Learning'
 q_2_2;select strftime("%Y",start_date) as year, count(*)as count_by_year from courses where course_category = 'Machine Learning' group by strftime("%Y",start_date)
