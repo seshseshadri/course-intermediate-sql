@@ -1,5 +1,5 @@
 key;value
-q_0_1;select * from courses limit 10
+q_0_1;select * from courses limit 10 
 q_1_1;select count(*) as cnt from courses
 q_1_2;select distinct course_category from courses
 q_2_1;select count(*) as cnt from courses where course_category = 'Machine Learning'
